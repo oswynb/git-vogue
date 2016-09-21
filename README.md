@@ -1,7 +1,7 @@
 git-vogue - A framework for pre-commit checks 
 =========================================================
 
-[![Travis Status](http://travis-ci.org/anchor/git-vogue.png?branch=master)](https://travis-ci.org/anchor/git-vogue)
+[![Travis Status](http://travis-ci.org/christian-marie/git-vogue.png?branch=master)](https://travis-ci.org/christian-marie/git-vogue)
 
 Intended to be used as a git pre-commit hook, *git-vogue* encourages developers
 to keep their Haskell code ["en vogue"][1] by providing a framework for
@@ -12,7 +12,7 @@ Currently, *git-vogue* ships with the following plugins:
 * [cabal][6]
 * [hlint][2]
 * [stylish-haskell][4] with automatic fixing
-* [ghc-mod][5]
+* [ghc-mod][5] (not with ghc8 , yet)
 
 [1]: https://www.youtube.com/watch?v=GuJQSAiODqI
 [2]: http://hackage.haskell.org/package/hlint
